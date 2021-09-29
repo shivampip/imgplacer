@@ -45,7 +45,6 @@ def resize(imgfile, mwidth, mheight, halign="center", valign="center"):
 
     out_img = Image.new(resized_img.mode, (mwidth, mheight), (255,))
     out_img.paste(resized_img, (left, top))
-    out_img.save("out/out_{}".format(imgfile.filename))
     return out_img
 
 

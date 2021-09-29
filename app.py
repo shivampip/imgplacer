@@ -2,6 +2,7 @@ from flask import Flask, json, request, jsonify, send_file
 from iengine import resize, paste_logo
 from PIL import Image
 from inputs import docs
+import os 
 
 app = Flask(__name__)
 
@@ -31,11 +32,13 @@ def test():
 
     count = 0
     for doc in docs:
+        name= os.path.splitext(doc["path"])[0]
         mwidth = doc["width"]
         mheight = doc["height"]
         print("Resizing logo==================")
         resized_img = resize(logo, mwidth, mheight,
                              doc["halign"], doc["valign"])
+        resized_img.save("out/for_{}.png".format(name))
         print("Putting Logo on Doc============")
         paste_logo(doc, resized_img, count)
 

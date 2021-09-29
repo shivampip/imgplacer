@@ -1,21 +1,66 @@
 docs = [
     {
-        "path": "seasons-greetings.jpg",
+        "path": "gr.jpg",
         "left": 22,
-        "top": 18,
-        "width": 297,
-        "height": 68,
+        "top": 15,
+        "width": 239,
+        "height": 72,
         "halign": "left",
-        "valign": "center"
+        "valign": "center",
     },
     {
-        "path": "seasons-greetings.jpg",
+        "path": "cr.jpg",
+        "left": 41,
+        "top": 30,
+        "width": 521,
+        "height": 133,
+        "halign": "left",
+        "valign": "center",
+    },
+    {
+        "path": "pp.png",
+        "left": 104,
+        "top": 57,
+        "width": 1722,
+        "height": 423,
+        "halign": "center",
+        "valign": "center",
+    },
+    {
+        "path": "ig.png",
+        "left": 37,
+        "top": 22,
+        "width": 557,
+        "height": 102,
+        "halign": "center",
+        "valign": "center",
+    },
+    {
+        "path": "ig2.jpg",
+        "left": 37,
+        "top": 22,
+        "width": 557,
+        "height": 102,
+        "halign": "left",
+        "valign": "center",
+    },
+    {
+        "path": "lf.png",
+        "left": 64,
+        "top": 42,
+        "width": 1128,
+        "height": 269,
+        "halign": "center",
+        "valign": "center",
+    },
+    {
+        "path": "gr.jpg",
         "left": 154,
         "top": 612,
         "width": 299,
         "height": 89,
         "halign": "center",
-        "valign": "center"
+        "valign": "center",
     },
     {
         "path": "d1.jpg",
@@ -24,7 +69,7 @@ docs = [
         "width": 594,
         "height": 298,
         "halign": "center",
-        "valign": "center"
+        "valign": "center",
     },
     {
         "path": "d2.jpg",
@@ -33,7 +78,7 @@ docs = [
         "width": 592,
         "height": 134,
         "halign": "center",
-        "valign": "center"
+        "valign": "center",
     },
     {
         "path": "d3.jpg",
@@ -42,7 +87,7 @@ docs = [
         "width": 590,
         "height": 497,
         "halign": "center",
-        "valign": "center"
+        "valign": "center",
     },
     {
         "path": "d4.jpg",
@@ -51,7 +96,7 @@ docs = [
         "width": 366,
         "height": 510,
         "halign": "center",
-        "valign": "center"
+        "valign": "center",
     },
     {
         "path": "d6.jpg",
@@ -60,6 +105,6 @@ docs = [
         "width": 1123,
         "height": 95,
         "halign": "center",
-        "valign": "center"
-    }
+        "valign": "center",
+    },
 ]
