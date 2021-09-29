@@ -1,4 +1,4 @@
-from flask import Flask, json, request, jsonify
+from flask import Flask, json, request, jsonify, send_file
 from iengine import resize, paste_logo
 from PIL import Image
 from inputs import docs
@@ -21,7 +21,8 @@ def resize_img():
 
     resized_img.save("out/resized_{}".format(logo.filename))
 
-    return jsonify({"message": "success"})
+    # return jsonify({"message": "success"})
+    return send_file("out/resized_{}".format(logo.filename))
 
 
 @app.route("/test", methods=["POST"])
