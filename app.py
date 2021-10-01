@@ -8,11 +8,11 @@ from datetime import datetime
 
 
 # ========================================================
-# output_dir = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/output"
-# input_json_path = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/inputs.json"
+output_dir = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/output"
+input_json_path = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/inputs.json"
 # docs_path = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/docs"
-output_dir = "./out"
-input_json_path = "./inputs.json"
+# output_dir = "./out"
+# input_json_path = "./inputs.json"
 
 update_fq = 20  # seconds
 # ========================================================
