@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "path": "gr.jpg",
+            "width": 239,
+            "height": 72,
+            "halign": "left",
+            "valign": "center"
+        },
+        {
+            "path": "cr.jpg",
+            "width": 521,
+            "height": 133,
+            "halign": "left",
+            "valign": "center"
+        },
+        {
+            "path": "ig2.jpg",
+            "width": 557,
+            "height": 102,
+            "halign": "center",
+            "valign": "center"
+        },
+        {
+            "path": "d4.jpg",
+            "width": 366,
+            "height": 510,
+            "halign": "right",
+            "valign": "center"
+        },
+        {
+            "path": "d6.jpg",
+            "width": 1123,
+            "height": 95,
+            "halign": "left",
+            "valign": "center"
+        }
+    ]
+}
