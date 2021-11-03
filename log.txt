@@ -1,0 +1,52 @@
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "app.py", line 137, in <module>
+    app.run(host="0.0.0.0", port=3501)
+  File "/home/customer/www/resized/imgplacer/ienv/lib64/python3.7/site-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/customer/www/resized/imgplacer/ienv/lib64/python3.7/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/customer/www/resized/imgplacer/ienv/lib64/python3.7/site-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/home/customer/www/resized/imgplacer/ienv/lib64/python3.7/site-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/home/customer/www/resized/imgplacer/ienv/lib64/python3.7/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib64/python3.7/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib64/python3.7/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib64/python3.7/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://35.214.125.186:3502/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Oct/2021 05:46:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Oct/2021 05:47:21] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [06/Oct/2021 05:49:56] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [06/Oct/2021 11:59:18] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [06/Oct/2021 12:00:59] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [06/Oct/2021 12:02:55] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:29:55] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:30:52] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:31:17] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:36:24] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:37:09] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:37:37] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:40:42] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:44:56] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:45:10] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:46:06] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:46:22] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:47:02] "POST /resize_all HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2021 06:59:28] "POST /resize_all HTTP/1.1" 200 -

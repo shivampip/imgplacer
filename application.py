@@ -8,8 +8,8 @@ from datetime import datetime
 
 
 # ========================================================
-output_dir = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/output"
-input_json_path = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/inputs.json"
+output_dir = "/home/u3-7szayc2e29vz/www/demo.mydigitalevents.com/public_html/resized_imgs/output"
+input_json_path = "/home/u3-7szayc2e29vz/www/demo.mydigitalevents.com/public_html/resized_imgs/inputs.json"
 # docs_path = "/home/u4-0dm1dehw5e1g/www/businessready.miraeassetmf.co.in/public_html/resized_imgs/docs"
 # output_dir = "./out"
 # input_json_path = "./inputs.json"
@@ -133,10 +133,12 @@ def resize_all():
     return jsonify({"status": "success", "message": msg, "paths": out_paths})
 
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3501)
+#if __name__ == "__main__":
+#    app.run(host="0.0.0.0", port=3502)
+
+
 # https://www.image-map.net/
 # 18001200
 
 
-9425604658
+#9425604658
